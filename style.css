@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+  }
+  body{
+  font-family: "Raleway" ,Arial, sans-serif
+  }
+  .container {
+    width: 100%;
+    height: 900px;
+  
+   }
+   .wrapper{
+     display: flex;
+     padding: 0.5rem;
+     width: 100%;
+     min-height: 100%;
+     gap: 0.5rem;
+   }
+  
+   .sub_cont_a{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     flex: 35%;
+     
+      }
+  
+      .fab{
+        padding: 10px;
+      }
+      .telephone{
+        font-size: 20px;
+      }
+      .info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      li{
+        font-size: 34px;
+        padding: 5px;
+          
+      }
+      ul{
+        margin-left: 100px;
+        margin-top: 5px;
+        margin-top: 50px;
+        list-style: none;
+        font-weight: 600;
+      }
+      .sub_cont_b
+      {
+     flex: 30%;
+     background-image: url(https://www.bestplace-immobilien.de/wp-content/uploads/2019/05/Essbereich.jpg;);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-color: black;
+     cursor: pointer;
+     position: relative;
+     
+       }
+       .sub_cont_b:before {
+        background: rgba(15, 40, 60, 0.637);
+        content: "";
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        cursor: pointer;
+        transition: all 1s;
+      }
+       
+  
+       
+       .sub_cont_c{
+         flex: 35%;
+         display: flex;
+         flex-direction: column;
+         gap: 0.5rem;
+         
+       }
+       .sub_c_top
+       {
+        background-image: url(https://www.bestplace-immobilien.de/wp-content/uploads/2019/05/Bad_pure.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex: 1;
+        width:100%;
+        height:100%;
+        display: grid;
+        cursor: pointer;
+        position: relative;
+       
+       
+    }
+    .sub_c_top::before {
+      background: rgba(15, 40, 60, 0.637);
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      cursor: pointer;
+      transition: all 1s;
+    }
+  
+  
+          .sub_c_bottom
+       {
+        background-image: url(https://www.bestplace-immobilien.de/wp-content/uploads/2019/05/Aussenansich_Tag-1.jpg);
+        flex: 1;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%;
+        height:100%;
+        display: grid;
+        position: relative;
+           
+      }
+  
+      .sub_c_bottom::before {
+        background: rgba(15, 40, 60, 0.637);
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        cursor: pointer;
+        transition: all 1s;
+      }
+      .sub_c_bottom:hover::before {
+        background: rgba(16, 42, 63, 0.925);
+        transition: all 100ms;
+      }
+      .sub_c_top:hover::before {
+        background: rgba(16, 42, 63, 0.925);
+        transition: all 100ms;
+      }
+      .sub_cont_b:hover::before {
+        background: rgba(16, 42, 63, 0.925);
+        transition: all 100ms;
+      }
+      
+      
+        .centertext{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        font-size: 32px;
+        color: white;
+        opacity: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      
+      }
+  
+  
